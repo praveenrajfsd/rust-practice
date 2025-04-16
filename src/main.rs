@@ -1,7 +1,8 @@
-fn main() {
-    let x :i8 = -8;
-    let y :u8 = 80;
-    let z :f32 = 2.34;
+fn add_numbers(a:i8, b:i8) -> i8{
+    a + b
+}
 
-    println!("X : {}, Y: {}, Z : {}", x, y, z);
+fn main(){
+    let x = add_numbers(2, 4);
+    println!("{}", x);
 }
